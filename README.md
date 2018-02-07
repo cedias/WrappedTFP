@@ -6,7 +6,7 @@
 
 ## Clone & Install with:
  
-`pip install git+https://github.com/cedias/WrappedTFP.git`
+`pip install git+https://github.com/cedias/WrappedTFP.git` (/!\ download can take some time)
 
 ## Usage:
 
