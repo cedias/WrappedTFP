@@ -1,6 +1,6 @@
 # WrappedTFP
 
-WrappedTFP is just the original Tensorflow Projector wrapped within a python webserver for local use:
+**WrappedTFP** is just the original [Tensorflow Projector](http://projector.tensorflow.org/) wrapped within a python _http.server_ for local use:
 
 --------------------------------------
 
