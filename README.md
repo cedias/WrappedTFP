@@ -4,8 +4,9 @@ WrappedTFP is just the original Tensorflow Projector wrapped within a python web
 
 --------------------------------------
 
-## Install:
-- Clone & install with: `pip install git+https://github.com/cedias/WrappedTFP.git`
+## Clone & Install with:
+ 
+`pip install git+https://github.com/cedias/WrappedTFP.git`
 
 ## Usage:
 
@@ -16,3 +17,4 @@ Launch the projector, use `--port` to modify default port:
 
 By default it opens a new tab or browser window. If not, just navigate to `http://localhost:port`
 
+> meant for python3.x
