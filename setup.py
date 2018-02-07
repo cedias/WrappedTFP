@@ -8,4 +8,5 @@ setup(name='WrappedTFP',
       author_email='me@mymail.com',
       license='MIT',
       packages=['wrappedtfp'],
+      data_files=[('tpf')],
       zip_safe=False)

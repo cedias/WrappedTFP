@@ -12,7 +12,7 @@ def main(args):
     PORT = args["port"]
     FILE = args["file"]
 
-    os.chdir(os.path.dirname(__file__)) 
+    os.chdir(os.path.dirname(__file__)+"/tpf") 
     # os.symlink(os.path.curdir(),"emb_dir")
     Handler = http.server.SimpleHTTPRequestHandler
 
