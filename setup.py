@@ -11,5 +11,5 @@ setup(name='WrappedTFP',
       package_dir={'':'.'}, 
       include_package_data=True,
       package_data={
-        'wrappedtfp': ['tpf/*'],
+        'wrappedtfp': ['tpf/*','tpf/oss_data/*'],
       })
