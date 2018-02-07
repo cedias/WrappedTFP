@@ -1,6 +1,6 @@
 # WrappedTFP
 
-WrappedTFP is just Tensorflow Projector wrapped for local use:
+WrappedTFP is just Tensorflow Projector wrapped within a python for local use:
 
 --------------------------------------
 
@@ -8,8 +8,7 @@ WrappedTFP is just Tensorflow Projector wrapped for local use:
 - Clone & install with: `pip install -e .`
 
 ## Usage:
+To launch the projector:
 
-(Not functionnal yet.)
-
-`python -m wrappedtpf(port) (dir)`
+`python -m wrappedtpf.serve (--port)`
 
