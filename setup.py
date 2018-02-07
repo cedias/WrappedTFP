@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='WrappedTFP',
       version='0.1',
@@ -7,5 +7,9 @@ setup(name='WrappedTFP',
       author='cedias',
       author_email='me@mymail.com',
       license='MIT',
-      packages=['wrappedtfp'],
-      zip_safe=False)
+      packages=find_packages('.'),  
+      package_dir={'':'.'}, 
+      include_package_data=True,
+      package_data={
+        'wrappedtfp': ['tpf/*'],
+      })
